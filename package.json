@@ -1,0 +1,40 @@
+{
+  "name": "self-pinger-robot",
+  "version": "1.0.7",
+  "description": "Ping Your Projects For Uptime",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon -e * src/app.js"
+  },
+  "keywords": [
+    "uptime",
+    "ping",
+    "tanjiro-ping",
+    "ping-bot",
+    "tanjiro"
+  ],
+  "type": "module",
+  "author": "John Marky Natividad",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.3.3",
+    "boxen": "^7.1.0",
+    "chalk": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnmarky08/tanjiro-ping-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnmarky08/tanjiro-ping-bot/issues"
+  },
+  "homepage": "https://github.com/johnmarky08/tanjiro-ping-bot#readme"
+}
